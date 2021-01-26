@@ -1,6 +1,6 @@
 <div class='container '>
     <div class='login row'>
-      <div class='log col-6' >
+      <div class='log col-lg-6 col-md-8 col-sm-12 ' >
 				<?php 
 				if (isset($_COOKIE['gender']) || isset($_POST['sexe'] )) {
 					if (isset($_COOKIE['firstname']) || isset($_POST['name'])) { 
