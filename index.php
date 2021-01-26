@@ -1,4 +1,4 @@
-
+<?php include 'controllers/index_controller.php' ?>
 <!doctype html>
 <html lang="fr">
   <head>
@@ -13,8 +13,9 @@
   </head>
   <body>
    <div class='container'>
-    <div class='login'>
-      <div class='log' >
+    <div class='login row'>
+      <div class='log ' >
+       
 
       <?php 
 if (isset($_COOKIE['gender']) || isset($_POST['sexe'] )) {
@@ -24,7 +25,7 @@ if (isset($_COOKIE['gender']) || isset($_POST['sexe'] )) {
         exit;
       }
         ?>
-
+        <h2> Etape 3/3 </h1>
       <form action="views/lover.php" method="post">
       <div class="mb-3">
         <label for="name" class="form-label">age</label>
@@ -75,6 +76,7 @@ if (isset($_COOKIE['gender']) || isset($_POST['sexe'] )) {
       }
        else { 
          ?>
+         <h2> Etape 2/3 </h1>
       <form action="index.php" method="post">
       <div class="mb-3">
         <label for="name" class="form-label">Nom</label>
@@ -102,6 +104,7 @@ if (isset($_COOKIE['gender']) || isset($_POST['sexe'] )) {
     <?php }
 }
 else{ ?>
+  <h2> Etape 1/3 </h1>
   <form action="index.php" method="post">
   <div class="form-check">
   <input class="form-check-input" type="radio" name="sexe" value="Homme" required>
@@ -123,6 +126,7 @@ else{ ?>
     </div>
 </div>
 </div>
+
 
 
 
