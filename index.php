@@ -5,7 +5,7 @@
 
 <?php include("views/core_views/head.php"); ?>
 
-<div class="container vh-100">
+<div class="container-fluid m-0 p-0 vh-100">
 
 	<?php  include("views/register.php"); ?>
 
