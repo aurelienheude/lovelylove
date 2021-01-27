@@ -31,14 +31,27 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="container p-5 w-75">
 			<div class="row h-100">
 				<div class="col-md-12 text-center">
-					aaa
+					<?php 
+						if(isset($_COOKIE["description"]))
+						{
+							echo $_COOKIE["description"];
+						}else{
+							echo "Pas encore de description.";
+						} 
+					?>
 				</div>
 			</div>
 		</div>
 	</div>
+
+<!--------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------->
+
 	<div class="parent-container d-flex bg-success">
 		<div class="container w-25">
 			<div class="row h-100">
@@ -53,9 +66,16 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="container w-75 bg-primary">
 			<div class="row">
-				<div class="col-md-12 text-center ">
+				<div class="col-md-12">
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">First item</li>
+					<li class="list-group-item">Second item</li>
+					<li class="list-group-item">Third item</li>
+					<li class="list-group-item">Fourth item</li>
+				</ul>
 					<ul class="list-group">
 						<li class="list-group-item">Nom : <?php echo $_COOKIE["lastname"]; ?></li>
 						<li class="list-group-item">Prénom : <?php echo $_COOKIE["firstname"]; ?></li>
@@ -66,9 +86,6 @@
 						<li class="list-group-item">email : <?php echo $_COOKIE["mail"]; ?></li>
 						<li class="list-group-item">Code postal : <?php echo $_COOKIE["zipcode"]; ?></li>
 					</ul>
-				</div>
-				<div class="col-md-12">
-
 				</div>
 			</div>
 		</div>
