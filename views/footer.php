@@ -4,11 +4,11 @@
             <h3>Suivez nous sur nos différents réseaux sociaux</h3>
         </div>
         <div class="col-md-12 text-center">
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
-            <p>5</p>
+            <p style="display: block;">1</p>
+            <p style="display: inline-block;">2</p>
+            <p style="display: block;">3</p>
+            <p style="display: block;">4</p>
+            <p style="display: block;">5</p>
         </div>
     </div>
 </div>
@@ -27,6 +27,7 @@
         </div>
     </div>
 </div>
+
 <div class="container py-2">
     <div class="row mx-auto">
         <div class="col-md-12 text-center">
