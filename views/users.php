@@ -19,8 +19,8 @@
 
 	<div class="parent-container d-flex bg-success">
     <div class="container w-25">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row h-100">
+            <div class="col-md-12 h-25">
 				<img class="Profil_pic_circle" src="../assets/img/logo.png" />
             </div>
 			<div class="col-md-12">
@@ -35,15 +35,15 @@
     <div class="container w-75 bg-primary">
         <div class="row">
             <div class="col-md-12 text-center ">
-                <ul>
-				<li>Nom</li>
-				<li>Prénom</li>
-				<li>age</li>
+                <ul class="list-group">
+				<li class="list-group-item">Nom : <?php echo $_COOKIE[""]; ?></li>
+				<li class="list-group-item">Prénom : <?php echo $_COOKIE[""]; ?></li>
+				<li class="list-group-item">age : <?php echo $_COOKIE[""]; ?></li>
 				</ul>
-				<ul>
-					<li>Genre</li>
-					<li>email</li>
-					<li>Code postal</li>
+				<ul class="list-group">
+					<li class="list-group-item">Genre : <?php echo $_COOKIE[""]; ?></li>
+					<li class="list-group-item">email : <?php echo $_COOKIE[""]; ?></li>
+					<li class="list-group-item">Code postal : <?php echo $_COOKIE[""]; ?></li>
 				</ul>
             </div>
 			<div class="col-md-12">
