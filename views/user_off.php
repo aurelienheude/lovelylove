@@ -12,7 +12,11 @@
     <div class="Inner_Center_bloc">
                 <h1>Faites le premier pas</h1>
                 <p>Faites des rencontres près de chez vous ! Si vous avez déjà un compte, connectez-vous pour utiliser Lovely love sur votre ordinateur.</p>
-        </div>
+                <form method="POST">
+                  <input type="submit" name="register_submit" value="Inscription" />
+                  <input type="submit" name="Login_submit" value="Connexion" />
+                </form>
+    </div>
 </section>
 
 <!---------------------------------------------------------------->
