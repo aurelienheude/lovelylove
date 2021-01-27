@@ -3,7 +3,7 @@
 
 <!-- DEBUT DE PAGE -->
 
-<?php include ("views/core_views/head.php"); ?>
+<?php include("views/core_views/head.php"); ?>
 
 <div class="container vh-100">
 
