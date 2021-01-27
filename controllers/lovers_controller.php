@@ -10,7 +10,7 @@ $tab_all_member =
             "gender" => "homme",
             "mail" => "marius@gmail.com",
             "zipcode" => 76620,
-            "picture" => "../assets/img/1.png",
+            "picture" => "../assets/img/avatar/1.jpg",
             "description" => "je mange des cookies et j'aime le foot et boire des grosses binouse"
         ],
         [
@@ -20,7 +20,7 @@ $tab_all_member =
             "gender" => "homme",
             "mail" => "toto@gmail.com",
             "zipcode" => 76620,
-            "picture" => "../assets/img/2.png",
+            "picture" => "../assets/img/avatar/2.jpg",
             "description" => "je mange des cookies"
         ],
         [
@@ -30,7 +30,7 @@ $tab_all_member =
             "gender" => "homme",
             "mail" => "ppj@gmail.com",
             "zipcode" => 76620,
-            "picture" => "../assets/img/3.png",
+            "picture" => "../assets/img/avatar/3.jpg",
             "description" => "J’adore les magasines de pêche surtout s’ils sont spécialisés sur la pêche en rivière."
         ],
         [
@@ -40,7 +40,7 @@ $tab_all_member =
             "gender" => "homme",
             "mail" => "anonyme@gmail.com",
             "zipcode" => 76600,
-            "picture" => "../assets/img/4.png",
+            "picture" => "../assets/img/avatar/4.jpg",
             "description" => "Wesh g envie de m'ammuser T ok"
         ],
         [
@@ -50,7 +50,7 @@ $tab_all_member =
             "gender" => "homme",
             "mail" => "manu.b@gmail.com",
             "zipcode" => 76600,
-            "picture" => "../assets/img/5.png",
+            "picture" => "../assets/img/avatar/5.jpg",
             "description" => "Recherche une femme blonde de 1m75 précis."
         ],
         [
@@ -60,7 +60,7 @@ $tab_all_member =
             "gender" => "homme",
             "mail" => "manu.b@gmail.com",
             "zipcode" => 76430,
-            "picture" => "../assets/img/6.png",
+            "picture" => "../assets/img/avatar/6.jpg",
             "description" => "Je suis drôle, très doué en sport, j’aime beaucoup le tennis et j’ai fait de grandes études."
         ],
         [
@@ -70,7 +70,7 @@ $tab_all_member =
             "gender" => "homme",
             "mail" => "naqa@gmail.com",
             "zipcode" => 76600,
-            "picture" => "../assets/img/7.png",
+            "picture" => "../assets/img/avatar/7.jpg",
             "description" => "Pour moi, les femmes n’ont pas de secret. Elles sont toutes à mes pieds, personne ne peut me résister."
         ],
         [
@@ -80,7 +80,7 @@ $tab_all_member =
             "gender" => "homme",
             "mail" => "phpformation@gmail.com",
             "zipcode" => 76600,
-            "picture" => "../assets/img/8.png",
+            "picture" => "../assets/img/avatar/8.jpg",
             "description" => "Cherche une partenaire de voyage qui n’a pas peur de l’aventure."
         ],
         [
@@ -90,7 +90,7 @@ $tab_all_member =
             "gender" => "homme",
             "mail" => "chriso.d@gmail.com",
             "zipcode" => 76640,
-            "picture" => "../assets/img/9.png",
+            "picture" => "../assets/img/avatar/9.jpg",
             "description" => "Si tu cherches mieux que ton ex, je peux être ta perle rare."
         ],
         [
@@ -100,7 +100,7 @@ $tab_all_member =
             "gender" => "homme",
             "mail" => "popaul@gmail.com",
             "zipcode" => 76640,
-            "picture" => "../assets/img/10.png",
+            "picture" => "../assets/img/avatar/10.jpg",
             "description" => "J’adore la nature et les découvertes, je suis curieux mais sans prétentions"
         ],
         [
@@ -110,7 +110,7 @@ $tab_all_member =
             "gender" => "femme",
             "mail" => "sarah.cl@gmail.com",
             "zipcode" => 76600,
-            "picture" => "../assets/img/11.png",
+            "picture" => "../assets/img/avatar/11.jpg",
             "description" => "Petit coeur fragile recherchant un prince"
         ],
         [
@@ -120,7 +120,7 @@ $tab_all_member =
             "gender" => "femme",
             "mail" => "sjojohanna@gmail.com",
             "zipcode" => 76600,
-            "picture" => "../assets/img/12.png",
+            "picture" => "../assets/img/avatar/12.jpg",
             "description" => "Si tu n’as rien dans le cerveau, ne vient pas me parler"
         ],
         [
@@ -130,7 +130,7 @@ $tab_all_member =
             "gender" => "femme",
             "mail" => "s.celong@gmail.com",
             "zipcode" => 76640,
-            "picture" => "../assets/img/13.png",
+            "picture" => "../assets/img/avatar/13.jpg",
             "description" => "Jeune femme recherche à se faire plaisir en toute liberté "
         ],
         [
@@ -140,7 +140,7 @@ $tab_all_member =
             "gender" => "femme",
             "mail" => "doudou7698Amour@gmail.com",
             "zipcode" => 76640,
-            "picture" => "../assets/img/14.png",
+            "picture" => "../assets/img/avatar/14.jpg",
             "description" => " La semaine dernière à New York, le mois prochain à Istanbul. Si toi aussi tu as l’âme voyageuse, viens donc me parler"
         ],
         [
@@ -150,7 +150,7 @@ $tab_all_member =
             "gender" => "femme",
             "mail" => "cheriecocofautpasblaguer@gmail.com",
             "zipcode" => 76430,
-            "picture" => "../assets/img/15.png",
+            "picture" => "../assets/img/avatar/15.jpg",
             "description" => "Préfère les longues conversations plutôt que les rencontres superficielles"
         ],
         [
@@ -160,7 +160,7 @@ $tab_all_member =
             "gender" => "femme",
             "mail" => "plusdidee@gmail.com",
             "zipcode" => 76430,
-            "picture" => "../assets/img/16.png",
+            "picture" => "../assets/img/avatar/16.jpg",
             "description" => "Est-ce que tu as décidé de passer ta vie avec des losers comme ton ex ou plutôt de changer le monde avec moi ?"
         ],
         [
@@ -170,7 +170,7 @@ $tab_all_member =
             "gender" => "femme",
             "mail" => "marie.st@gmail.com",
             "zipcode" => 76430,
-            "picture" => "../assets/img/17.png",
+            "picture" => "../assets/img/avatar/17.jpg",
             "description" => "À la recherche de quelqu’un pour pleurer avec moi devant les films romantiques"
         ],
         [
@@ -180,7 +180,7 @@ $tab_all_member =
             "gender" => "femme",
             "mail" => "marie.st@gmail.com",
             "zipcode" => 76640,
-            "picture" => "../assets/img/18.png",
+            "picture" => "../assets/img/avatar/18.jpg",
             "description" => "Tacos, Dormir, Tacos, Aller au travail, Tacos, Faire du sport, Tacos, Regarder un film, Tacos … on mange ensemble ? "
         ],
         [
@@ -190,7 +190,7 @@ $tab_all_member =
             "gender" => "femme",
             "mail" => "j.dupres@gmail.com",
             "zipcode" => 76640,
-            "picture" => "../assets/img/19.png",
+            "picture" => "../assets/img/avatar/19.jpg",
             "description" => "On dira à tes parents qu’on s’est rencontrés dans une bibliothèque "
         ],
         [
@@ -200,7 +200,7 @@ $tab_all_member =
             "gender" => "femme",
             "mail" => "fingerinthenose@gmail.com",
             "zipcode" => 76600,
-            "picture" => "../assets/img/20.png",
+            "picture" => "../assets/img/avatar/20.jpg",
             "description" => "Grande fan de taxidermie et de peaux animales "
         ]
 
