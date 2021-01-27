@@ -14,7 +14,7 @@
                 <p>Faites des rencontres près de chez vous ! Si vous avez déjà un compte, connectez-vous pour utiliser Lovely love sur votre ordinateur.</p>
                 <form method="POST">
                   <input type="submit" name="register_submit" value="Inscription" />
-                  <input type="submit" name="Login_submit" value="Connexion" />
+                  <input type="submit" name="login_submit" value="Connexion" />
                 </form>
     </div>
 </section>
@@ -23,7 +23,7 @@
 <!--------------------   MORE DATING   --------------------------->
 <!---------------------------------------------------------------->
 
-<section class="container d-flex m-0">
+<section class="container m-0">
     <div class="row mx-auto">
 
         <div class="col-md-12 text-center py-5">
@@ -54,7 +54,7 @@
 <!--------------------   WHY Lovely love  ------------------------>
 <!---------------------------------------------------------------->
 
-<section class="container d-flex m-0 py-5">
+<section class="container m-0 py-5">
     <div class="row">
         <div class="col-md-12">
             <img src="../assets/img/banner.jpg" class="img-fluid" alt="Responsive image">

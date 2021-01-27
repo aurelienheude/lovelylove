@@ -1,4 +1,4 @@
-<div class="container py-3 d-flex">
+<div class="container m-0 py-3 d-flex">
     <div class="row mx-auto">
         <div class="col-md-12 text-center">
             <h3>Suivez nous sur nos différents réseaux sociaux</h3>
@@ -12,7 +12,7 @@
         </div>
     </div>
 </div>
-<div class="container py-3 d-flex">
+<div class="container m-0 py-3 d-flex">
     <div class="row mx-auto">
         <div class="col-md-12 text-center">
             <form class="" method="POST" action="">
@@ -28,7 +28,7 @@
     </div>
 </div>
 
-<div class="container py-2">
+<div class="container m-0 d-flex py-2">
     <div class="row mx-auto">
         <div class="col-md-12 text-center">
             <ul class="Ul_footer">
