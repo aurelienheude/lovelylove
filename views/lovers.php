@@ -12,7 +12,7 @@
     <section class="bg-success container d-flex m-0 p-0">
         <div class="row mx-auto">
             <div class="col-md-12 py-5">
-                picture
+                <img class="Profil_pic_circle" src="../assets/img/logo.png" />
             </div>
         </div>
     </section>
@@ -29,7 +29,7 @@
     <?php // include("views/register.php") 
     ?>
 
-    <?php include("footer.php"); ?>
+    <?php //include("footer.php"); ?>
 
 </div>
 
