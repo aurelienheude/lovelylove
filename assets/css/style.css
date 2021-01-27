@@ -15,6 +15,15 @@ p {
 /***************************************************************************************/
 /***************************************************************************************/
 
+.NavSection
+{
+    background-color: #64485c !important;
+}
+
+.Profil_pic_circle
+{
+    border-radius: 50%;
+}
 
 .login {
     background-image: url("/assets/image/fond.jpg");
