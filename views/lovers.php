@@ -23,10 +23,6 @@
         </div>
     </section>
 
-
-
-
-
     <?php // include("views/login.php") 
     ?>
 
