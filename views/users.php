@@ -35,7 +35,19 @@
     <div class="container w-75 bg-primary">
         <div class="row">
             <div class="col-md-12 text-center ">
-                Container Right
+                <ul>
+				<li>Nom</li>
+				<li>Prénom</li>
+				<li>age</li>
+				</ul>
+				<ul>
+					<li>Genre</li>
+					<li>email</li>
+					<li>Code postal</li>
+				</ul>
+            </div>
+			<div class="col-md-12">
+                
             </div>
         </div>
     </div>
