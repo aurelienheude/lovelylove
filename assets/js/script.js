@@ -23,7 +23,7 @@ if(document.getElementById('name')){
 
     firstname.addEventListener("keyup", function (event) {
         
-        var nameRegex = new RegExp("^([a-zA-Z]+)$", "g")
+        var nameRegex = new RegExp("^([a-zA-Zéàèç-]+)$", "g")
         if (nameRegex.test(this.value) == false){
             event.preventDefault();
             this.style.backgroundColor = 'red'
@@ -38,7 +38,7 @@ if(document.getElementById('name')){
 
     lastname.addEventListener("keyup", function (event) {
         
-        var nameRegex = new RegExp("^([a-zA-Z]+)$", "g")
+        var nameRegex = new RegExp("^([a-zA-Zéàèç-]+)$", "g")
         if (nameRegex.test(this.value) == false){
             event.preventDefault();
             this.style.backgroundColor = 'red'
