@@ -49,27 +49,3 @@ p
 {
     font-family: 'Roboto', sans-serif;
 }
-
-.Ul_footer
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-.Li_footer
-{
-    list-style: none;
-    float: left;
-}
-
-.A_footer
-{
-    text-decoration: none;
-    color: black;
-}
-.A_footer:hover
-{
-    transition: 0.2s;
-    color: red;
-}
