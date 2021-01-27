@@ -13,7 +13,7 @@
 
 	<?php  include("views/login.php") ?>
 
-	<?php  include("views/register.php") ?>
+	<?php  include("views/register.php"); ?>
 
 	<?php include("views/footer.php"); ?>
 
