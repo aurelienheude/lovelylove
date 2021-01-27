@@ -2,7 +2,7 @@
 
 $tab_all_member = 
 
-[0 =>
+[
     [
     "lastname" => "Philippe",
     "firstname" => "Marius", 
@@ -13,9 +13,6 @@ $tab_all_member =
     "picture" => "../assets/img/300.png",
     "description" => "je mange des cookies et j'aime le foot et boire des grosses binouse"
     ],
-
-1 =>
-
     [
     "lastname" => "toto",
     "firstname" => "Marius", 
@@ -25,7 +22,7 @@ $tab_all_member =
     "zipcode" => 76620,
     "picture" => "../assets/img/300.png",
     "description" => "je mange des cookies"
-    ],
+    ]
     
 ];
 
