@@ -6,6 +6,11 @@
 
 /* font-family: 'Roboto', sans-serif; */
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 /***************************************************************************************/
 /***************************************************************************************/
 /***************************************************************************************/
@@ -40,12 +45,67 @@
     padding-top: 65px;
 }
 
-.H2Dating
+
+
+.foote_bottom_ul_amrc li {
+    display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+    color: #777;
+}
+
+.social_footer_ul 
 {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.social_footer_ul li {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.social_footer_ul li a {
+    color: #777;
+    border: 1px solid #777;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.social_footer_ul li i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.SocialBranding
+{
+    background: #101820FF;
+}
+
+.Info_Footer
+{
+    background: #101820FF;
+}
+
+.Credit
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: #101820FF;
+}
+
+.H2Dating {
     font-family: 'Roboto', sans-serif;
 }
 
-p
+.Newsletters
 {
     font-family: 'Roboto', sans-serif;
+    color: white;
+    background: #101820FF;
 }

@@ -4,15 +4,16 @@
             <h3>Suivez nous sur nos différents réseaux sociaux</h3>
         </div>
         <div class="col-md-12 text-center">
-            <p style="display: block;">1</p>
-            <p style="display: inline-block;">2</p>
-            <p style="display: block;">3</p>
-            <p style="display: block;">4</p>
-            <p style="display: block;">5</p>
+            <ul class="social_footer_ul">
+                <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+            </ul>
         </div>
     </div>
 </div>
-<div class="container m-0 py-3 d-flex">
+<div class="Newsletters container m-0 py-3 d-flex">
     <div class="row mx-auto">
         <div class="col-md-12 text-center">
             <form class="" method="POST" action="">
@@ -28,7 +29,7 @@
     </div>
 </div>
 
-<div class="container m-0 d-flex py-2">
+<div class="Info_Footer container m-0 d-flex py-2">
     <div class="row mx-auto">
         <div class="col-md-12 text-center">
             <ul class="Ul_footer">
@@ -38,8 +39,12 @@
                 <li class="Li_footer"><a href="#" class="A_footer">Politique des cookies</a></li>
             </ul>
         </div>
+    </div>
+</div>
+<div class="container m-0 d-flex py-4 Credit">
+    <div class="row align-items-center mx-auto">
         <div class="col-md-12 text-center">
-            <p>2021 Lovely love | Tous droits réservés</p>
+            2021 Lovely love | Tous droits réservés
         </div>
     </div>
 </div>
