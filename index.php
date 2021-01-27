@@ -18,4 +18,4 @@
 </div>
 
 <!-- FIN DE PAGE -->
-<?php include ("views/core_views/end.php"); ?>
+<?php include("views/core_views/end.php"); ?>
