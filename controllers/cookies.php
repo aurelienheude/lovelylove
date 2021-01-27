@@ -41,8 +41,9 @@ if (isset($_POST["mail"])) {
 
 if (isset($_POST["zipcode"])) {
     $cookieZip = trim($_POST["zipcode"]);
+    $cookieZip = (int)$cookieZip;
 
-    if (gettype($cookieZip) == "integer"){
+    if ($cookieZip != 0 ){
         setcookie ( "zipcode",   $cookieZip , time()+60 ) ;
     }
     else{
@@ -53,14 +54,14 @@ if (isset($_POST["zipcode"])) {
 
 if (isset($_POST["age"])) {
     $cookieAge = trim($_POST["age"]);
-
-    if (gettype($cookieAge) == "integer"){
-    setcookie ( "age",  $cookieAge , time()+60 ) ;
-    }
-    else{
-     header("Location: index.php");
-        exit;
-    }
+    $cookieAge = (int)$cookieAge;
+    if (($cookieAge) != 0){
+        setcookie ( "age",  $cookieAge , time()+60 ) ;
+        }
+        else{
+         header("Location: ../index.php");
+            exit;
+        }
 } 
 
 if (isset($_POST["search"])) {
