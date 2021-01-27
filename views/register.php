@@ -17,7 +17,7 @@
 
 
 				<h2> Etape 3/3 </h1>
-				<form action="views/lover.php" method="post">
+				<form action="views/lovers.php" method="post">
 					<div class="mb-3">
 						<label for="age" class="form-label">age</label>
 						<input type="textarea" class="form-control" name="age" required>
