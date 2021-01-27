@@ -1,3 +1,5 @@
+
+
 <?php
 	if (isset($_COOKIE["gender"]) || isset($_POST["sexe"] )) 
 	{
@@ -10,7 +12,7 @@
 				}
 ?>
 
-	<div class="container">
+<div class="container">
 		<div class="login row">
 			<div class="log col-lg-6 col-md-8 col-sm-12 " >
 				<h2> Etape 3/3 </h1>
