@@ -17,13 +17,6 @@
         </div>
     </section>
 
-    <section class="container m-0 py-3">
-        <div class="row">
-            <div class="col-md-12">
-            <input type="range" id="volume" name="volume" min="0" max="11" />
-            </div>
-        </div>
-    </section>
     <section class="container m-0 pt-4">
         <div class="row">
             <?php include("../controllers/lovers_controller.php"); ?>
