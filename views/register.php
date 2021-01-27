@@ -4,10 +4,10 @@
 				<?php 
 				if (isset($_COOKIE['gender']) || isset($_POST['sexe'] )) {
 					if (isset($_COOKIE['firstname']) || isset($_POST['name'])) { 
-					if (isset($_COOKIE['interest'])) { 
-						header('Location: views/lover.php');
-						exit;
-					}
+						if (isset($_COOKIE['interest'])) { 
+							header('Location: views/lover.php');
+							exit;
+						}
 					?>
 				<h2> Etape 3/3 </h1>
 				<form action="views/lover.php" method="post">
