@@ -1,3 +1,20 @@
+<div class="parent-container d-flex bg-success">
+		<div class="container w-50">
+			<div class="row h-100">
+				<div class="col-md-12">
+					a
+				</div>
+			</div>
+		</div>
+
+		<div class="container w-50 bg-primary">
+			<div class="row">
+				<div class="col-md-12">
+					a
+				</div>
+			</div>
+		</div>
+	</div>
 
 <div class="container">
 	<div class="login row">
