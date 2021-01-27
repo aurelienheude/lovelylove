@@ -1,4 +1,4 @@
-<section class="bg-success container d-flex m-0 p-0">
+<section class="Banner_style container d-flex m-0 p-0">
 		<div class="row mx-auto">
 			<div class="col-md-12 py-5">
 				<div class="">
