@@ -7,10 +7,6 @@
 
 <div class="container vh-100">
 
-	<?php // include("views/nav.php") ?>
-
-	<?php // include("views/user_off.php") ?>
-
 	<?php  include("views/register.php"); ?>
 
 	<?php // include("views/footer.php"); ?>
