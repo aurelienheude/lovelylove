@@ -5,17 +5,29 @@
 <!---------------------------------------------------------------->
 <section class="container m-0 p-0">
     <div class="row">
-        <div class="col-md-12">
+        <div class="Banner_div col-md-12">
             <img src="../assets/img/banner.jpg" class="img-fluid" alt="Responsive image">
         </div>
     </div>
+    <div class="Inner_Center_bloc">
+                <h1>Faites le premier pas</h1>
+                <p>Faites des rencontres près de chez vous ! Si vous avez déjà un compte, connectez-vous pour utiliser Lovely love sur votre ordinateur.</p>
+                <form method="POST">
+                  <input type="submit" name="register_submit" value="Inscription" />
+                  <input type="submit" name="Login_submit" value="Connexion" />
+                </form>
+    </div>
 </section>
 
-<section class="container d-flex m-0 py-5">
+<!---------------------------------------------------------------->
+<!--------------------   MORE DATING   --------------------------->
+<!---------------------------------------------------------------->
+
+<section class="container d-flex m-0">
     <div class="row mx-auto">
 
         <div class="col-md-12 text-center py-5">
-            <h2>Nous offrons bien plus que du dating</h2>
+            <h2 class="H2Dating">Nous offrons bien plus que du dating</h2>
         </div>
         <div class="col-md-4 text-center">
             <img src="../assets/img/300.png" class="img-fluid" alt="Responsive image">
@@ -37,3 +49,46 @@
         </div>
     </div>
 </section>
+
+<!---------------------------------------------------------------->
+<!--------------------   WHY Lovely love  ------------------------>
+<!---------------------------------------------------------------->
+
+<section class="container d-flex m-0 py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <img src="../assets/img/banner.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------------->
+<!-----------------------   CAROUSSEL  --------------------------->
+<!---------------------------------------------------------------->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../assets/img/banner.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../assets/img/banner.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../assets/img/banner.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

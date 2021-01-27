@@ -6,11 +6,11 @@
 
 	<?php include("views/nav.php") ?>
 
-	<?php include("views/user_off.php") ?>
+	<?php //include("views/user_off.php") ?>
 
-	<?php include("views/users.php") ?>
+	<?php //include("views/users.php") ?>
 
-	<?php include("views/login.php") ?>
+	<?php //include("views/login.php") ?>
 
 	<?php include("views/register.php") ?>
 

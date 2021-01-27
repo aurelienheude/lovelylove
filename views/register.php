@@ -1,6 +1,7 @@
 <div class='container '>
     <div class='login row'>
       <div class='log col-lg-6 col-md-8 col-sm-12 ' >
+	  
 				<?php 
 				if (isset($_COOKIE['gender']) || isset($_POST['sexe'] )) {
 					if (isset($_COOKIE['firstname']) || isset($_POST['name'])) { 
@@ -56,40 +57,62 @@
 					<div class="col-12">
 						<button class="btn btn-primary" type="submit">continuer</button>
 					</div>
-				</form>	
-			<?php 
-			}
-			else { 
-				?>
+				</form>
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+
+	<?php 
+		}
+		else { 
+	?>
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+
 				<h2> Etape 2/3 </h1>
 			<form action="index.php" method="post">
 				<div class="mb-3">
 					<label  for="name" class="form-label">Nom</label>
-					<input type="textarea" class="form-control" name="name" id='name' required>
+					<input type="textarea" class="form-control" name="name" id="name" required>
 				</div>
 
 				<div class="mb-3">
 					<label for="lastname" class="form-label">Prenom</label>
-					<input id='lastname' type="textarea" class="form-control" name="lastname" required>
+					<input id="lastname" type="textarea" class="form-control" name="lastname" required>
 				</div>
 
 				<div class="mb-3">
 					<label for="Password" class="form-label">Mail</label>
-					<input id='mail' type="email" class="form-control" name="mail" required>
+					<input id="mail" type="email" class="form-control" name="mail" required>
 				</div>
 
 				<div class="mb-3">
 					<label for="zip" class="form-label">Code Postale</label>
-					<input id='cp' type="textarea" class="form-control" name="zipcode" required>
+					<input id="cp" type="textarea" class="form-control" name="zipcode" required>
 				</div>
 
-				<button id='btn1' type="submit" class="btn btn-primary">continuer</button>
+				<button id="btn1" type="submit" class="btn btn-primary">continuer</button>
 
 			</form>
-				<?php }
-				}
-				else{ ?>
-			<div class='row text-center'>
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+
+	<?php 
+		}
+	}
+	else{ 			
+	?>
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+
+			<div class="row text-center">
 				<h2> Etape 1/3 </h1>
 				<form action="index.php" method="post">
 					
@@ -112,7 +135,15 @@
 					</div>
 				</form>
 			</div>
-			<?php } ?>
+			
 		</div>
 	</div>
 </div>
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+
+<?php 
+}
+?>
