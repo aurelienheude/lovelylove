@@ -5,10 +5,14 @@
 <!---------------------------------------------------------------->
 <section class="container m-0 p-0">
     <div class="row">
-        <div class="col-md-12">
+        <div class="Banner_div col-md-12">
             <img src="../assets/img/banner.jpg" class="img-fluid" alt="Responsive image">
         </div>
     </div>
+    <div class="Inner_Center_bloc">
+                <h1>Faites le premier pas</h1>
+                <p>Faites des rencontres près de chez vous ! Si vous avez déjà un compte, connectez-vous pour utiliser Lovely love sur votre ordinateur.</p>
+        </div>
 </section>
 
 <!---------------------------------------------------------------->
