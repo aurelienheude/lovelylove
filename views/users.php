@@ -1,11 +1,11 @@
-<?php include '../controllers/cookies.php' ?>
-<?php include ("../controllers/index_controller.php"); ?>
+<?php include("../controllers/cookies.php"); ?>
+<?php include("../controllers/index_controller.php"); ?>
 
 <!-- DEBUT DE PAGE -->
 
 <?php include ("core_views/head.php"); ?>
 
-<div class='container vh-100'>
+<div class="container vh-100">
 
 	<?php include("nav.php") ?>
 
