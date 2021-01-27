@@ -1,5 +1,5 @@
-<?php include "controllers/cookies.php" ?>
-<?php include ("controllers/index_controller.php"); ?>
+<?php include("controllers/cookies.php"); ?>
+<?php include("controllers/index_controller.php"); ?>
 
 <!-- DEBUT DE PAGE -->
 
