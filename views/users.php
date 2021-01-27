@@ -3,7 +3,7 @@
 
 <!-- DEBUT DE PAGE -->
 
-<?php include ("core_views/head.php"); ?>
+<?php include("core_views/head.php"); ?>
 
 <div class="container vh-100">
 
@@ -17,49 +17,29 @@
 		</div>
 	</section>
 
-	<section class="container m-0 pt-4">
-		<div class="row text-center">
-			<div class="col-md-3">
-			<div class="card" style="width: 18rem;">
-			<div class="card-header">
-				Featured
-			</div>
-			<ul class="list-group list-group-flush">
-				<li class="list-group-item">Cras justo odio</li>
-				<li class="list-group-item">Dapibus ac facilisis in</li>
-				<li class="list-group-item">Vestibulum at eros</li>
-			</ul>
-			</div>
-			</div>
-			<div class="col-md-3">
-				a
-			</div>
-			<div class="col-md-3">
-			<div class="card" style="width: 18rem;">
-			<div class="card-header">
-				Featured
-			</div>
-			<ul class="list-group list-group-flush">
-				<li class="list-group-item">Cras justo odio</li>
-				<li class="list-group-item">Dapibus ac facilisis in</li>
-				<li class="list-group-item">Vestibulum at eros</li>
-			</ul>
-			</div>
-			</div>
-			<div class="col-md-3">
-			<div class="card" style="width: 18rem;">
-			<div class="card-header">
-				Featured
-			</div>
-			<ul class="list-group list-group-flush">
-				<li class="list-group-item">Cras justo odio</li>
-				<li class="list-group-item">Dapibus ac facilisis in</li>
-				<li class="list-group-item">Vestibulum at eros</li>
-			</ul>
-			</div>
-			</div>
-		</div>
-	</section>
+	<div class="parent-container d-flex bg-success">
+    <div class="container w-25">
+        <div class="row">
+            <div class="col-md-12">
+				<img class="Profil_pic_circle" src="../assets/img/logo.png" />
+            </div>
+			<div class="col-md-12">
+				<div class="list-group" id="list-tab" role="tablist">
+					<a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+					<a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+				</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container w-75 bg-primary">
+        <div class="row">
+            <div class="col-md-12 text-center ">
+                Container Right
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -80,7 +60,7 @@
 
 	<?php // include("views/register.php") ?>
 
-	<?php include("footer.php"); ?>
+	<?php //include("footer.php"); ?>
 
 </div>
 
