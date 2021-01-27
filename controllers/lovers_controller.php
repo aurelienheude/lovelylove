@@ -1,19 +1,23 @@
 <?php 
 
 $tab_all_member = 
+
 [0 =>
-    ["lastname" => "Philippe",
+    [
+    "lastname" => "Philippe",
     "firstname" => "Marius", 
-    "age" => 0, 
+    "age" => 23, 
     "gender" => "homme", 
-    "mail" => "mariuskoko@gmail.com",
+    "mail" => "marius@gmail.com",
     "zipcode" => 76620,
     "picture" => "../assets/img/300.png",
-    "description" => "je mange des cookies"
+    "description" => "je mange des cookies et j'aime le foot et boire des grosses binouse"
     ],
+
 1 =>
 
-    ["lastname" => "Philippe",
+    [
+    "lastname" => "toto",
     "firstname" => "Marius", 
     "age" => 0, 
     "gender" => "homme", 
@@ -25,9 +29,9 @@ $tab_all_member =
     
 ];
 
-for ($cursor = 0; $cursor < count($tab_all_member); $cursor++)
+foreach($tab_all_member as $key => $value)
 {
-    print_r($tab_all_member[$cursor]);
+    var_dump($value["lastname"]);
 }
 
 ?>
