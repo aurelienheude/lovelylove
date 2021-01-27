@@ -11,7 +11,7 @@
 
 	<?php // include("views/user_off.php") ?>
 
-	<?php  include("views/login.php") ?>
+	<?php // include("views/login.php") ?>
 
 	<?php  include("views/register.php"); ?>
 
