@@ -215,7 +215,7 @@ foreach ($tab_all_member as $key => $value) {
             <img class="card-img-top" src="<?php echo $value["picture"]; ?>" alt="Card image cap">
 
             <div class="card-body">
-                <h5 class="card-title text-center"><?php echo $value["lastname"] . ", " . $value["firstname"]; ?></h5>
+                <h5 class="card-title text-center"><?php echo $value["lastname"] . " " . $value["firstname"]; ?></h5>
                 <ul>
                     <li>age : <?php echo $value["age"]; ?></li>
                     <li>code postal : <?php echo $value["zipcode"]; ?></li>
