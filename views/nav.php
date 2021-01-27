@@ -1,5 +1,5 @@
 	<!-- Image and text -->
-	<nav class="container m-0 navbar navbar-light bg-light">
+	<nav class="NavSection container m-0 navbar">
 		<div class="row mx-auto">
 			<div class="col-md-12">
 				<a class="navbar-brand" href="#">
