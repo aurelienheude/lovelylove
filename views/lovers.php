@@ -1,6 +1,6 @@
 <?php include("../controllers/cookies.php"); ?>
 <?php include("../controllers/index_controller.php"); ?>
-
+<?php include("../controllers/redirect.php"); ?>
 <!-- DEBUT DE PAGE -->
 
 <?php include("core_views/head.php"); ?>
