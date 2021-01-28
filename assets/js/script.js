@@ -9,9 +9,9 @@ if(document.getElementById('name')){
     button.disabled = true;
     button.addEventListener("mouseenter", function (event) {
         
-        if (firstname.style.backgroundColor == 'green' && lastname.style.backgroundColor == 'green' &&
-        mail.style.backgroundColor == 'green' && mail.style.backgroundColor == 'green' &&
-        cp.style.backgroundColor == 'green'){
+        if (firstname.style.backgroundColor == '#41D3BD' && lastname.style.backgroundColor == '#41D3BD' &&
+        mail.style.backgroundColor == '#41D3BD' && mail.style.backgroundColor == '#41D3BD' &&
+        cp.style.backgroundColor == '#41D3BD'){
             event.preventDefault();
             button.disabled = false;
         }   
@@ -26,11 +26,11 @@ if(document.getElementById('name')){
         var nameRegex = new RegExp("^([a-zA-Zéàèç-]+)$", "g")
         if (nameRegex.test(this.value) == false){
             event.preventDefault();
-            this.style.backgroundColor = 'red'
+            this.style.backgroundColor = '#DE6449'
             button.disabled = true;
         }   
         else {
-            this.style.backgroundColor = 'green'
+            this.style.backgroundColor = '#41D3BD'
             button.disabled = false;
             
         }
@@ -41,12 +41,12 @@ if(document.getElementById('name')){
         var nameRegex = new RegExp("^([a-zA-Zéàèç-]+)$", "g")
         if (nameRegex.test(this.value) == false){
             event.preventDefault();
-            this.style.backgroundColor = 'red'
+            this.style.backgroundColor = '#DE6449'
             button.disabled = true;
             
         }
         else {
-            this.style.backgroundColor = 'green'
+            this.style.backgroundColor = '#41D3BD'
             button.disabled = false;
         }
     })
@@ -56,12 +56,12 @@ if(document.getElementById('name')){
         var nameRegex = new RegExp(/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/, "i")
         if (nameRegex.test(this.value) == false){
             event.preventDefault();
-            this.style.backgroundColor = 'red'
+            this.style.backgroundColor = '#DE6449'
             button.disabled = true;
           
         }
         else {
-            this.style.backgroundColor = 'green'
+            this.style.backgroundColor = '#41D3BD'
             button.disabled = false;
            
         }
@@ -73,12 +73,12 @@ if(document.getElementById('name')){
         var nameRegex = new RegExp('^(([0-8][0-9])|(9[0-5]))[0-9]{3}$')
         if (nameRegex.test(this.value) == false){
             event.preventDefault();
-            this.style.backgroundColor = 'red'
+            this.style.backgroundColor = '#DE6449'
             button.disabled = true;
           
         }
         else {
-            this.style.backgroundColor = 'green'
+            this.style.backgroundColor = '#41D3BD'
             button.disabled = false;
             
         }
