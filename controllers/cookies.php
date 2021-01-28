@@ -64,7 +64,7 @@ if (isset($_POST["age"])) {
     $cookieAge = trim($_POST["age"]);
     $cookieAge = (int)$cookieAge;
     if (($cookieAge) != 0){
-        setcookie ( "age",  $cookieAge , time()+86400 ) ;
+        setcookie ( "age",  $cookieAge , time()+86400 , '/') ;
         }
         else{
          header("Location: ../index.php");
@@ -73,11 +73,11 @@ if (isset($_POST["age"])) {
 } 
 
 if (isset($_POST["search"])) {
-    setcookie ( "search",  $_POST["search"] , time()+86400 ) ;
+    setcookie ( "search",  $_POST["search"] , time()+86400, '/') ;
 } 
 
 if (isset($_POST["interest"])) {
-    setcookie ( "interest",  $_POST["interest"] , time()+86400 ) ;
+    setcookie ( "interest",  $_POST["interest"] , time()+86400,'/') ;
 } 
 
 
