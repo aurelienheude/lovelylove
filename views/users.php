@@ -53,7 +53,7 @@
 					</div>
 				</div>
 				<div class="col-md-12 p-5 text-center">
-					<?php echo $_COOKIE["description"]; ?>
+					<?php if(isset($_COOKIE["description"])){echo $_COOKIE["description"];}else{ echo "Pas encore de description :("; } ?>
 				</div>
 			</div>
 			<div class="row">
