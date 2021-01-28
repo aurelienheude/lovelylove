@@ -17,7 +17,8 @@ p {
 
 body
 {
-    background: #222 !important;
+    background: #32373B !important;
+   /* background: #222 !important;*/
 }
 
 /***************************************************************************************/
@@ -51,24 +52,49 @@ li{
 /*********************************   FORM REGISTER   ***********************************/
 /***************************************************************************************/
 
-.login {
-    background-image: url("/assets/image/fond.jpg");
-    width: auto;
-    min-height: 100vh;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.Card_register
+{
+    background: #C83E4D !important;
+    color: white;
+}
+.input_register
+{
+    border: none !important;
+    border-bottom: 3px solid white !important;
+    background: #C83E4D !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+.input_register:hover
+{
+    transition: 0.1s !important;
+    box-shadow: none !important;
+}
+.input_register::placeholder
+{
+    color: white !important;
 }
 
+.Card_register_header
+{
+    background: #32373B !important;
+}
+
+.btn_register
+{
+    background: #32373B !important;
+    border: 2px solid #FFFFFF !important;
+    border-radius: 25px !important;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn_register:hover
+{
+    transition: 0.3s;
+    background: #C83E4D !important;
+    border: 2px solid #32373B !important;
+}
 
 /***************************************************************************************/
 /**********************************   FOOTER SOCIAL   **********************************/
