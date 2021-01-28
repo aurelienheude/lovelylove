@@ -474,7 +474,6 @@ if ($_COOKIE["interest"] == "tout") {
     foreach ($tab_all_member as $key => $value) {
 
 ?>
-
         <div class="col-md-3 pb-5">
             <div class="card">
                 <img class="card-img-top" src="<?php echo $value["picture"]; ?>" alt="Card image cap">
@@ -489,7 +488,6 @@ if ($_COOKIE["interest"] == "tout") {
                 </div>
             </div>
         </div>
-
 <?php
     }
 }
