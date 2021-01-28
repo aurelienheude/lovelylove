@@ -80,5 +80,4 @@ if (isset($_POST["interest"])) {
     setcookie ( "interest",  $_POST["interest"] , time()+86400,'/') ;
 } 
 
-
 ?>
