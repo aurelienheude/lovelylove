@@ -9,9 +9,9 @@ if(document.getElementById('name')){
     button.disabled = true;
     button.addEventListener("mouseenter", function (event) {
         
-        if (firstname.style.backgroundColor == '#41D3BD' && lastname.style.backgroundColor == '#41D3BD' &&
-        mail.style.backgroundColor == '#41D3BD' && mail.style.backgroundColor == '#41D3BD' &&
-        cp.style.backgroundColor == '#41D3BD'){
+        if (firstname.style.backgroundColor == 'rgb(65, 211, 189)' && lastname.style.backgroundColor == 'rgb(65, 211, 189)' &&
+        mail.style.backgroundColor == 'rgb(65, 211, 189)' && mail.style.backgroundColor == 'rgb(65, 211, 189)' &&
+        cp.style.backgroundColor == 'rgb(65, 211, 189)'){
             event.preventDefault();
             button.disabled = false;
         }   
