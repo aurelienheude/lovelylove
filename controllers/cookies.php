@@ -8,6 +8,10 @@ function validation($donnee){
         return $donnee;
     }
     else{
+        unset($_POST["name"]);
+        if (isset($_COOKIE['firstname'])){
+            unset($_COOKIE['firstname']);
+        }
         header("Location: index.php");
         exit;
     }
@@ -25,32 +29,37 @@ if (isset($_POST["sexe"])) {
 }
 
 if (isset($_POST["name"])) {
-    $cookieName = validation($_POST["name"]);
-    setcookie ( "firstname",  $cookieName , time()+86400 ) ;
-} 
-    
-if (isset($_POST["lastname"])) {
-    $cookieLast = validation($_POST["lastname"]);
-    setcookie ( "lastname",   $cookieLast , time()+86400 ) ;
-} 
+    if (isset($_POST["lastname"]) && isset($_POST["mail"])
+    && isset($_POST["zipcode"])) {
+        $cookieName = validation($_POST["name"]);
+        setcookie ( "firstname",  $cookieName , time()+86400 ) ;
 
-if (isset($_POST["mail"])) {
-    $cookieMail = validation($_POST["mail"]);
-    setcookie ( "mail",  $cookieMail , time()+86400 ) ;
-} 
+        $cookieLast = validation($_POST["lastname"]);
+        setcookie ( "lastname",   $cookieLast , time()+86400 ) ;
+        
+        $cookieMail = validation($_POST["mail"]);
+        setcookie ( "mail",  $cookieMail , time()+86400 ) ;
 
-if (isset($_POST["zipcode"])) {
-    $cookieZip = trim($_POST["zipcode"]);
-    $cookieZip = (int)$cookieZip;
+        $cookieZip = trim($_POST["zipcode"]);
+        $cookieZip = (int)$cookieZip;
 
-    if ($cookieZip != 0 ){
-        setcookie ( "zipcode",   $cookieZip , time()+86400 ) ;
+        if ($cookieZip != 0 ){
+            setcookie ( "zipcode",   $cookieZip , time()+86400 ) ;
+        }
+        else{
+            unset($_POST["name"]);
+            unset($_COOKIE['firstname']);
+            header("Location: index.php");
+            exit;
+        } 
     }
-    else{
+    else {
+        unset($_POST["name"]);
         header("Location: index.php");
         exit;
     }
-} 
+    }
+
 
 if (isset($_POST["age"])) {
     $cookieAge = trim($_POST["age"]);
