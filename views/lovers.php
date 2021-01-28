@@ -5,7 +5,7 @@
 
 <?php include("core_views/head.php"); ?>
 
-<div class="container vh-100">
+<div class="Container_body container p-0 vh-100">
 
     <?php include("nav.php") ?>
 
@@ -19,7 +19,7 @@
 <!--------------------------------------------------------------------------->
 <!--------------------------------------------------------------------------->
 
-    <section class="container m-0 p-0 pt-4">
+    <section class="Container_body container m-0 p-4">
         <div class="row">
             <?php include("../controllers/lovers_controller.php"); ?>
         </div>
