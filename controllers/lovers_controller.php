@@ -418,7 +418,8 @@ $tab_women_member =
     ];
 
 
-if ($_COOKIE["interest"] == "Homme") {
+if ( (isset($_COOKIE["interest"]) && $_COOKIE["interest"] == "Homme" ) || (isset($_POST['interest']) &&
+    $_POST['interest'] == 'Homme')) {
     foreach ($tab_men_member as $key => $value) {
 ?>
 
