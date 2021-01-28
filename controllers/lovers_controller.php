@@ -443,7 +443,8 @@ if ( (isset($_COOKIE["interest"]) && $_COOKIE["interest"] == "Homme" ) || (isset
 }
 ?>
 <?php
-if ($_COOKIE["interest"] == "Femme") {
+if ( (isset($_COOKIE["interest"]) && $_COOKIE["interest"] == "Femme" ) || (isset($_POST['interest']) &&
+$_POST['interest'] == 'Femme')) {
     foreach ($tab_women_member as $key => $value) {
 ?>
 
@@ -470,7 +471,8 @@ if ($_COOKIE["interest"] == "Femme") {
 
 <?php
 
-if ($_COOKIE["interest"] == "tout") {
+if ( (isset($_COOKIE["interest"]) && $_COOKIE["interest"] == "tout" ) || (isset($_POST['interest']) &&
+    $_POST['interest'] == 'tout')) {
 
     foreach ($tab_all_member as $key => $value) {
 
