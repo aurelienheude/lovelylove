@@ -9,14 +9,13 @@ function validation($donnee){
     }
     else{
         unset($_POST["name"]);
-        if (isset($_COOKIE['firstname'])){
-            unset($_COOKIE['firstname']);
-        }
+        setcookie('firstname')  ;
         header("Location: index.php");
         exit;
     }
+    }
 
-}
+
 
 if (isset($_POST["sexe"])) {
     if( $_POST["sexe"] == "Homme" || $_POST["sexe"] == "Femme"  ){
