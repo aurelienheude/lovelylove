@@ -1,6 +1,6 @@
 <?php include("../controllers/cookies.php"); ?>
 <?php include("../controllers/index_controller.php"); ?>
-
+<?php include("../controllers/redirect.php"); ?>
 <!-- DEBUT DE PAGE -->
 
 <?php include("core_views/head.php"); ?>
@@ -23,40 +23,14 @@
 	<!--------------------------------------------------------------------------->
 	<!--------------------------------------------------------------------------->
 
-	<div class="parent-container d-flex bg-success">
-		<div class="container w-25">
-			<div class="row h-100">
-				<div class="col-md-12">
-
+	<div class="parent-container py-4 px-0 h-50 d-flex">
+		<section class="container w-25 ps-0 pe-4">
+			<div class="row h-100 m-0 p-0">
+				<div class="col-md-12 h-25 bg-light">
+					<img class="Profil_pic_circle rounded-circle" src="../assets/img/300.png" width="100px" height="100px" />
 				</div>
 			</div>
-		</div>
-
-		<div class="container p-5 w-75">
-			<div class="row h-100">
-				<div class="col-md-12 text-center">
-					<?php
-					if (isset($_COOKIE["description"])) {
-						echo $_COOKIE["description"];
-					} else {
-						echo "Pas encore de description.";
-					}
-					?>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--------------------------------------------------------------------------->
-	<!--------------------------------------------------------------------------->
-	<!--------------------------------------------------------------------------->
-
-	<div class="parent-container d-flex bg-success">
-		<div class="container w-25">
-			<div class="row h-100">
-				<div class="col-md-12 h-25">
-					<img class="Profil_pic_circle" src="../assets/img/logo.png" />
-				</div>
+			<div class="row">
 				<div class="col-md-12">
 					<div class="list-group" id="list-tab" role="tablist">
 						<a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
@@ -64,30 +38,42 @@
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="container w-75 bg-primary">
+
+		</section>
+
+		<section class="container ps-2 w-75 bg-light">
 			<div class="row">
 				<div class="col-md-12">
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item">First item</li>
-						<li class="list-group-item">Second item</li>
-						<li class="list-group-item">Third item</li>
-						<li class="list-group-item">Fourth item</li>
-					</ul>
-					<ul class="list-group">
-						<li class="list-group-item">Nom : <?php echo $_COOKIE["lastname"]; ?></li>
-						<li class="list-group-item">Prénom : <?php echo $_COOKIE["firstname"]; ?></li>
-						<li class="list-group-item">age : <?php echo $_COOKIE["age"]; ?></li>
-					</ul>
-					<ul class="list-group">
-						<li class="list-group-item">Genre : <?php echo $_COOKIE["gender"]; ?></li>
-						<li class="list-group-item">email : <?php echo $_COOKIE["mail"]; ?></li>
-						<li class="list-group-item">Code postal : <?php echo $_COOKIE["zipcode"]; ?></li>
-					</ul>
+					<div class="form-group">
+						<form method="POST" action="../controllers/user_controller.php">
+							<textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="3" placeholder="Quel est ton mood aujourd'hui ?"></textarea>
+							<input class="btn btn-dark" type="submit" value="Envoyez" name="description_users" />
+						</form>
+					</div>
+				</div>
+				<div class="col-md-12 p-5 text-center">
+					<?php echo $_COOKIE["description"]; ?>
 				</div>
 			</div>
-		</div>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="list-group">
+						<li class="">Nom : <?php echo $_COOKIE["lastname"]; ?></li>
+						<li class="">Prénom : <?php echo $_COOKIE["firstname"]; ?></li>
+						<li class="">age : <?php echo $_COOKIE["age"]; ?></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="list-group">
+						<li class="">Genre : <?php echo $_COOKIE["gender"]; ?></li>
+						<li class="">email : <?php echo $_COOKIE["mail"]; ?></li>
+						<li class="">Code postal : <?php echo $_COOKIE["zipcode"]; ?></li>
+					</ul>
+				</div>
+
+			</div>
+		</section>
 	</div>
 	<section class="container d-flex">
 		<div class="row mx-auto">
@@ -101,10 +87,8 @@
 					<input type="submit" value="TAKE MY MONEY" />
 				</form>
 			</div>
-
 		</div>
 	</section>
-
 	<!--------------------------------------------------------------------------->
 	<!--------------------------------------------------------------------------->
 	<!--------------------------------------------------------------------------->
