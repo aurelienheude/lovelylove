@@ -39,8 +39,22 @@ body
 
 .Card_style
 {
-    min-height: 480px !important;
+    min-height: 550px !important;
 }
+.card_a_style
+{
+    color: black !important;
+    text-decoration: none !important;
+    font-size: 48px !important;
+}
+
+.card_a_style:hover{
+    transition: 0.3s !important;
+    color: #C83E4D !important;
+    background: #C83E4D !important;
+    font-weight: bold !important;
+}
+
 /***************************************************************************************/
 /*************************************   USERS   ***************************************/
 /***************************************************************************************/

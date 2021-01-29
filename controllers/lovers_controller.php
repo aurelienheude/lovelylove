@@ -423,17 +423,17 @@ if ( (isset($_COOKIE["interest"]) && $_COOKIE["interest"] == "Homme" ) || (isset
     foreach ($tab_men_member as $key => $value) {
 ?>
 
-        <div class="col-md-3 pb-5">
-            <div class="Card_style card">
-                <img class="card-img-top img-fluid" src="<?php echo $value["picture"]; ?>" alt="Card image cap">
+        <div class="col-lg-3 pb-5">
+            <div class="Card_style card d-flex">
+            <img class="card-img-top img-fluid" src="<?php echo $value["picture"]; ?>" alt="Card image cap">
 
                 <div class="card-body">
                     <h5 class="card-title mb-3 text-center"><?php echo $value["lastname"] . " " . $value["firstname"]; ?></h5>
+                    <a href="#" class="card_a_style"><i class="i_style fas fa-heart d-block text-center"></i></a>
                     <hr>
                         <p>age : <?php echo $value["age"]; ?></p>
                         <p>code postal : <?php echo $value["zipcode"]; ?></p>
                         <p>Description : <?php echo $value["description"]; ?></p>
-                    
                 </div>
             </div>
         </div>
@@ -450,16 +450,16 @@ $_POST['interest'] == 'Femme')) {
 
 
         <div class="col-lg-3 pb-5">
-            <div class="Card_style card">
+            <div class="Card_style card d-flex">
             <img class="card-img-top img-fluid" src="<?php echo $value["picture"]; ?>" alt="Card image cap">
 
                 <div class="card-body">
                     <h5 class="card-title mb-3 text-center"><?php echo $value["lastname"] . " " . $value["firstname"]; ?></h5>
+                    <a href="#" class="card_a_style"><i class="i_style fas fa-heart d-block text-center"></i></a>
                     <hr>
                         <p>age : <?php echo $value["age"]; ?></p>
                         <p>code postal : <?php echo $value["zipcode"]; ?></p>
                         <p>Description : <?php echo $value["description"]; ?></p>
-                    
                 </div>
             </div>
         </div>
@@ -477,11 +477,13 @@ if ( (isset($_COOKIE["interest"]) && $_COOKIE["interest"] == "tout" ) || (isset(
     foreach ($tab_all_member as $key => $value) {
 
 ?>
-        <div class="col-md-3 pb-5">
-            <div class="Card_style card">
+        <div class="col-lg-3 pb-5">
+            <div class="Card_style card d-flex">
             <img class="card-img-top img-fluid" src="<?php echo $value["picture"]; ?>" alt="Card image cap">
+
                 <div class="card-body">
                     <h5 class="card-title mb-3 text-center"><?php echo $value["lastname"] . " " . $value["firstname"]; ?></h5>
+                    <a href="#" class="card_a_style"><i class="i_style fas fa-heart d-block text-center"></i></a>
                     <hr>
                         <p>age : <?php echo $value["age"]; ?></p>
                         <p>code postal : <?php echo $value["zipcode"]; ?></p>
