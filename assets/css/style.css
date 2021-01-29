@@ -135,8 +135,9 @@ body
 
 .btn_register
 {
-    background: #32373B !important;
-    border: 2px solid #FFFFFF !important;
+    background: #C83E4D !important;
+    border: 2px solid #32373B !important;
+    
     border-radius: 25px !important;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -145,6 +146,6 @@ body
 .btn_register:hover
 {
     transition: 0.3s;
-    background: #C83E4D !important;
-    border: 2px solid #32373B !important;
+    background: #32373B !important;
+    border: 2px solid #FFFFFF !important;
 }
