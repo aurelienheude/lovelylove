@@ -37,21 +37,15 @@ body
 /************************************   LOVERS   ***************************************/
 /***************************************************************************************/
 
-
-/***************************************************************************************/
-/********************************   CONTAINER BODY   ***********************************/
-/***************************************************************************************/
-
-.Container_body
-{
-    background: #C83E4D !important;
-}
-
 /***************************************************************************************/
 /*************************************   USERS   ***************************************/
 /***************************************************************************************/
 
-
+.Bio_user
+{
+    background: white !important;
+    font-family: 'Roboto', sans-serif;
+}
 
 .description_user_bloc
 {
@@ -62,6 +56,7 @@ body
 
 .input_button_user
 {
+    display: block !important;
     background:  #F4B860 !important;
     border-radius: 5px !important;
     color: white !important;
@@ -134,67 +129,4 @@ body
     transition: 0.3s;
     background: #C83E4D !important;
     border: 2px solid #32373B !important;
-}
-
-/***************************************************************************************/
-/**********************************   FOOTER SOCIAL   **********************************/
-/***************************************************************************************/
-
-.social_footer_ul 
-{
-    margin: 0px;
-    padding: 0px;
-    display: inline-block;
-    list-style-type: none;
-}
-
-.social_footer_ul li {
-    padding-left: 20px;
-    padding-top: 10px;
-    float: left;
-}
-
-.social_footer_ul li a {
-    color: #777;
-    border: 1px solid #777;
-    padding: 8px;
-    border-radius: 50%;
-}
-
-.social_footer_ul li i {
-    width: 20px;
-    height: 20px;
-    text-align: center;
-}
-
-.SocialBranding
-{
-    background: #101820FF;
-}
-
-.Info_Footer
-{
-    background: #101820FF;
-}
-
-/***************************************************************************************/
-/**********************************   FOOTER CREDIT   **********************************/
-/***************************************************************************************/
-
-.Credit
-{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background: #101820FF;
-}
-
-.H2Dating {
-    font-family: 'Roboto', sans-serif;
-}
-
-.Newsletters
-{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background: #101820FF;
 }
