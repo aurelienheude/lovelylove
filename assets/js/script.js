@@ -85,3 +85,11 @@ if(document.getElementById('name')){
 
     })
 }
+
+if(document.getElementsByClassName('fas fa-thumbs-down')){
+    for (let i = 0; i < document.getElementsByClassName('fas fa-thumbs-down').length  ; i++) {
+        document.getElementById('disslike'+i).addEventListener("click", function (event) {
+            event.preventDefault();
+            this.parentNode.parentElement.parentElement.parentElement.style = "display:none";
+    })
+}}

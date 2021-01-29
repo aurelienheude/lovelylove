@@ -420,6 +420,7 @@ $tab_women_member =
 
 if ( (isset($_COOKIE["interest"]) && $_COOKIE["interest"] == "Homme" ) || (isset($_POST['interest']) &&
     $_POST['interest'] == 'Homme')) {
+    $i=0;
     foreach ($tab_men_member as $key => $value) {
 ?>
 
@@ -429,7 +430,7 @@ if ( (isset($_COOKIE["interest"]) && $_COOKIE["interest"] == "Homme" ) || (isset
 
                 <div class="card-body">
                     <h5 class="card-title mb-3 text-center"><?php echo $value["lastname"] . " " . $value["firstname"]; ?></h5>
-                    <a href="#" class="card_a_style"><i class="i_style fas fa-heart d-block text-center"></i></a>
+                    <a href="#" class="card_a_style"><i class="i_style fas fa-heart d-block text-center"></i></a> <button><i id=<?php echo "disslike".$i ?>  class="fas fa-thumbs-down"></i></button>
                     <hr>
                         <p>age : <?php echo $value["age"]; ?></p>
                         <p>code postal : <?php echo $value["zipcode"]; ?></p>
@@ -439,6 +440,7 @@ if ( (isset($_COOKIE["interest"]) && $_COOKIE["interest"] == "Homme" ) || (isset
         </div>
 
 <?php
+$i++;
     }
 }
 ?>
@@ -483,7 +485,7 @@ if ( (isset($_COOKIE["interest"]) && $_COOKIE["interest"] == "tout" ) || (isset(
 
                 <div class="card-body">
                     <h5 class="card-title mb-3 text-center"><?php echo $value["lastname"] . " " . $value["firstname"]; ?></h5>
-                    <a href="#" class="card_a_style"><i class="i_style fas fa-heart d-block text-center"></i></a>
+                    <a href="#" class="card_a_style"><i class="i_style fas fa-heart d-block text-center"></i></a> 
                     <hr>
                         <p>age : <?php echo $value["age"]; ?></p>
                         <p>code postal : <?php echo $value["zipcode"]; ?></p>
