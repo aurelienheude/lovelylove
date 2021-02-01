@@ -4,6 +4,9 @@
 				<div class="">
 					<img class="Profil_pic_circle rounded-circle" src="../assets/img/300.png" width="150px" height="150px" />
 				</div>
+				<div class="mt-3 text-center h3 text-light">
+					<?php echo $_COOKIE["firstname"]." ".$_COOKIE["lastname"]; ?>
+				</div>
 			</div>
 		</div>
 </section>
